@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:900,400);
 body {
 	font-family: Raleway, Helvetica Neue, Helvetica, sans-serif;
-	color: #eee;
 	background-color: #101010;
-	margin: 0
+	margin: 0;
 }
 
 #container {
@@ -89,4 +88,3 @@ body {
 	font-size: 31pt;
 	padding: .3em
 }
-
