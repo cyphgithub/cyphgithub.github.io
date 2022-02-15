@@ -1,0 +1,27 @@
+.table {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    background: red;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+  }
+  
+  .table:checked {
+    background: green;
+  }
+
+  .booth {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    background: red;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+  }
+  
+  .booth:checked {
+    background: green;
+  }
