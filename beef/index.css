@@ -2,14 +2,14 @@
     -webkit-appearance: none;
     appearance: none;
     border: 0;
-    background: red;
-    height: 200px;
-    width: 200px;
+    background: orange;
+    height: 100px;
+    width: 100px;
     display: inline-block;
   }
   
   .table:checked {
-    background: green;
+    background: lightgreen;
   }
 
   .booth {
@@ -17,8 +17,38 @@
     appearance: none;
     border: 0;
     background: red;
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+  }
+
+  .wallvert {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    background: burlywood;
+    height: 100px;
+    width: 30px;
+    display: inline-block;
+  }
+
+  .wallhoriz {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    background: burlywood;
+    height: 30px;
+    width: 110px;
+    display: inline-block;
+  }
+
+  .empty {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    background: gray;
+    height: 100px;
+    width: 100px;
     display: inline-block;
   }
   
