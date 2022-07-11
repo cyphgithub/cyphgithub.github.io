@@ -161,11 +161,11 @@ body {
 			0px 30px 37px -10px rgba(0, 0, 0, 0.06);
 	}
 	.profileImage {
-		display: table-cell;
-    	vertical-align: middle;
+		display: inline-block;
+		vertical-align: middle;
 	}
 	.pfptext {
-		display: table-cell;
+		display: inline-block;
     	vertical-align: middle;
 		width: 90vw;
 		color: #fff;
@@ -232,9 +232,9 @@ body {
 		margin: auto;
 		border-radius: 24px;
 		background: #2c2c2c;
-		margin: 15px auto;
-		width: 18vw;
-		height: 50vh;
+		margin: 15px 15px auto;
+		padding-left: 15px;
+		display: inline-block;
 		position: relative;
 	  }
 
@@ -266,6 +266,7 @@ body {
 		display: table-cell;
     	vertical-align: middle;
 		width: 90vw;
+
 		color: #fff;
 	}
 	.nameText {
